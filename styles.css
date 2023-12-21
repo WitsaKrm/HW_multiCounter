@@ -1,0 +1,46 @@
+/* style.css */
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  #root {
+    margin-bottom: 20px;
+  }
+  
+  .counter {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .controller {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    border: none;
+    background-color: lightgray;
+    cursor: pointer;
+  }
+  
+  .show-sum {
+    font-weight: bold;
+  }
+  
+  #in {
+    color: red;
+  }
+  
